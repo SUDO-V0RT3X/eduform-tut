@@ -4,7 +4,7 @@ $visitor_email = $POST['email'];
 $subject = $POST['subject'];  
 $message = $POST['message'];  
 
-$email_from = 'website@domain.com';
+$email_from = 'https://sudo-v0rt3x.github.io/eduform-tut/';
 
 $email_subject = 'NEW FORM SUBMISSION';
 
