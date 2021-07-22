@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/images/icon.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+    <title>Blog | Eduform</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="/index.html"><img src="/images/logo.png" alt="logo" /></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/courses.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates and Online Programs for 2021</h1>
+
+    </section>
+
+    <!--BLOG PAGE CONTENT-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/certificate.jpg" alt="certificate">
+                <h2>Our Certificates and Online Programs for 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum rerum veritatis dolorem fugit obcaecati quam, necessitatibus, dolor quisquam suscipit facere esse. Asperiores est suscipit ut unde rerum ex possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptates provident amet harum natus. Numquam vero assumenda iste, ducimus incidunt alias sequi, beatae rem ea consequatur nesciunt quas tempora porro!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat asperiores mollitia, assumenda quos cumque iusto enim tenetur suscipit? Labore saepe veritatis molestias commodi temporibus id libero alias hic blanditiis placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum voluptatum distinctio laboriosam optio velit voluptas, quasi iusto quas similique, eum recusandae non perspiciatis. Doloremque omnis quod beatae! Illum, veritatis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae in facilis debitis distinctio porro odit quidem consequatur modi ut molestiae corporis veritatis, eos amet incidunt, veniam laborum possimus et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam ut fugiat cum laborum? Commodi odio dolores officia deserunt ad numquam, consectetur corporis voluptas in nobis laudantium consequatur illum vero?</p>
+
+                <div class="comment-blog">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="ENTER NAME">
+                        <input type="email" placeholder="ENTER EMAIL">
+                        <textarea rows="5" placeholder="YOUR COMMENT"></textarea>
+                        <button type="submit" class="hero-btn hero-btn-dark">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div class="cate">
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div class="cate">
+                    <span>Journalism</span>
+                    <span>13</span>
+                </div>
+                <div class="cate">
+                    <span>Engineering</span>
+                    <span>29</span>
+                </div>
+                <div class="cate">
+                    <span>Web Design</span>
+                    <span>16</span>
+                </div>
+                <div class="cate">
+                    <span>Art & Drama</span>
+                    <span>09</span>
+                </div>
+
+                <div class="cate">
+                    <span>Medicine</span>
+                    <span>16</span>
+                </div>
+                <div class="cate">
+                    <span>Commerce</span>
+                    <span>39</span>
+                </div>
+                <div class="cate">
+                    <span>Animiation</span>
+                    <span>28</span>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quia ratione id modi minus eligendi, <br> excepturi eaque quos eius debitis! Repellat autem non inventore nihil nemo nulla quia quis nisi?</p>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-github-square"></i>
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-pinterest-square"></i>
+        </div>
+
+        <p> Made with <i class="fa fa-heart-o"></i> by Eduform <br> &copy Eduform 2021</p>
+
+
+
+
+    </section>
+
+
+
+    <script>
+        //toggle hamburger in JS
+
+        var navLinks = document.getElementById("nav-links")
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+        function showMenu() {
+            navLinks.style.right = "0px"
+        }
+    </script>
+</body>
+
+</html>
